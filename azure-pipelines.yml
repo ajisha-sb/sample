@@ -27,4 +27,4 @@ stages:
         command: build
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile.txt'
         tags: |
-          $(tag)
+          tag1
